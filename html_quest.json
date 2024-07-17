@@ -1,0 +1,46 @@
+[
+    {
+        "title":"Why we use <br> Elwwmnt?",
+        "answere_1":"To make text Bold",
+        "answer_2": "To make text Italic",
+        "answer_3": "To make a new line",
+        "answer_4": "To add horizontal line",
+        "right_answer": "To add Newline"
+    },
+    
+    {
+        "title":"Is <img> element has Attribute href",
+        "answere_1":"Yes",
+        "answer_2": "No its for anchor tag",
+        "answer_3": "All element has this attribute",
+        "answer_4": "Answer 1 & 3 is correct",
+        "right_answer": "To add New line"
+    },
+
+    {
+        "title":"How we can make a text Bold",
+        "answere_1":"but it inside a <b> tag",
+        "answer_2": "btu it inside  <strong> tag",
+        "answer_3": "Customize it with font-weight property in css",
+        "answer_4": "All answers are right",
+        "right_answer": "All answers are right"
+    },
+
+    {
+        "title":"Why we use <br> Elwwmnt?",
+        "answere_1":"To make text Bold",
+        "answer_2": "To make text Italic",
+        "answer_3": "To make a new line",
+        "answer_4": "To add horizontal line",
+        "right_answer": "To add Newline"
+    },
+
+    {
+        "title":"Why we use <br> Elwwmnt?",
+        "answere_1":"To make text Bold",
+        "answer_2": "To make text Italic",
+        "answer_3": "To make a new line",
+        "answer_4": "To add horizontal line",
+        "right_answer": "To add Newline"
+    }
+]
