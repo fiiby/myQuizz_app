@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.quiz-app {
+    margin: 20px auto;;
+    width: 800px;
+    background-color: rgba(110, 161, 83, 0.597);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.quiz-app .quiz-info {
+    display: flex;
+    background-color: rgb(247, 243, 243);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quiz-app .quiz-info .category {
+    flex:1;
+    
+}
+.quiz-app .quiz-info .count {
+    flex: 1;
+    text-align: right;
+}
+
+.quiz-app .quiz-area {
+    background-color: rgb(247, 243, 243);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.quiz-app .quiz-area h2 {
+    margin: 0;
+    color: brown;
+    font-size: medium;
+}
+
+.quiz-app .answer-area {
+background-color: rgb(247, 243, 243);
+margin-top: 20px;
+padding: 15px;
+border-radius: 5px;
+font-size: medium;
+}
+
+.quiz-app .answer-area .answer {
+    background-color:lightgray;
+    padding: 15px;
+    /* color: brown; */
+    /* font-weight: meduim; */
+}
+
+.quiz-app .answer-area .answer:not(:last-child) {
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.quiz-app .answer-area .answer input[type="radio"]:checked + label {
+color: #0075ff;
+font-size: 17px;
+position: relative;
+top: -1px;
+
+
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:focus {
+    outline:none;
+}
+
+.quiz-app .bullets {
+    border-top:1px solid #dfdfdf ;
+    background-color:rgb(247, 243, 243);
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: medium;
+    /* text-align: center; */
+}
+.quiz-app .bullets .spans {
+    flex: 1;
+    display: flex;
+}
+
+.quiz-app .bullets .spans span {
+    width:20px;
+    height: 20px;
+    background-color: darkgrey;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.quiz-app .bullets .spans span.on {
+    background-color: #0075ff;
+}
+
+.result {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.result span {
+font-weight: bold;
+}
+.result span.bad {
+    color:#dc0a0a;
+}
+.result span.good {
+    color: #009688;
+}
+
+.result span.perfect {
+    color: #0075ff ;
+}
+
+/* .countdown 
+ background-color: lightgrey;
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    color: brown;
+   
+  
+} */
